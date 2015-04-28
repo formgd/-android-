@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LittleSnake</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mode_ready">贪吃蛇\n按两次“向上”键开始"</string>
+	<string name="mode_pause">暂停中\n按“向上”键恢复</string>
+	<string name="mode_lose_prefix">游戏结束\n得分: </string>
+	<string name="mode_lose_suffix">\n按“向上”键开始\n按“返回”按钮退出游戏</string>
+	<string name="snake_layout_text_text">LittleSnake</string>
+    
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_x="0dip" android:id="@+id/scrollView1" 
+android:background="@drawable/background2"
+android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_y="4dip">
+    <AbsoluteLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button android:layout_width="wrap_content" 
+            android:text="返回" 
+            android:visibility="visible" 
+            android:layout_height="wrap_content" 
+            android:id="@+id/Button6" android:layout_x="272dip" 
+            android:layout_y="244dip">
+    </Button>
+    <TextView android:textSize="34dip" 
+              android:visibility="visible" 
+              android:layout_width="wrap_content" 
+              android:scrollbars="vertical" 
+              android:text="游戏中按键盘UP键蛇向上            按DOWN键向下              按LEFT键向左              按RIGHT键向右" 
+              android:layout_height="wrap_content" 
+              android:id="@+id/text" 
+              android:layout_x="-1dip" 
+              android:layout_y="50dip">
+        </TextView>
+ </AbsoluteLayout>
+</ScrollView>

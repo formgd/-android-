@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@drawable/background"
+	>
+	<LinearLayout
+		 android:orientation="vertical"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" 
+         android:gravity="center">
+		<TextView android:textColor="#ff3456ff" 
+		          android:textSize="40sp" 
+		          android:layout_height="wrap_content" 
+		          android:visibility="visible" 
+		          android:text="@string/snake_layout_text_text" 
+		          android:layout_width="wrap_content" 
+		          android:id="@+id/text" 
+		          android:gravity="center_horizontal">
+		</TextView>
+	  <ImageButton 
+		android:contentDescription="@string/app_name"
+		android:visibility="visible" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/ImageButton1">
+		</ImageButton>	
+	 <Button
+	        android:id="@+id/Button1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:visibility="visible">
+		    </Button>
+     <Button
+	        android:id="@+id/Button5"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:visibility="visible">
+		    </Button>
+     <Button
+	        android:id="@+id/Button3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:visibility="visible">
+		    </Button>
+		    </LinearLayout>
+</RelativeLayout>
+

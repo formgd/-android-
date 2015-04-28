@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+                  android:layout_x="0dip" android:id="@+id/scrollView1" 
+                  android:background="@drawable/background1"
+                  android:layout_height="wrap_content" 
+                  android:layout_width="wrap_content" 
+                  android:layout_y="4dip">
+   <AbsoluteLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <TextView
+            android:id="@+id/text"
+            android:text="姓名:施文章            性别：男              学院：信息工程学院                          "
+			android:visibility="visible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		    android:scrollbars="vertical" 
+		    android:textSize="34dip"/>
+    <Button android:layout_width="wrap_content" 
+            android:text="返回" 
+            android:visibility="visible" 
+            android:layout_height="wrap_content" 
+            android:id="@+id/Button2" 
+            android:layout_x="269dip" 
+            android:layout_y="322dip">
+    </Button>
+  </AbsoluteLayout>
+</ScrollView>
